@@ -35,7 +35,8 @@ export const SearchBox = () => {
     const search = formData.get("search") as string;
 
     if (!!search) {
-      router.push("/" + encodeURIComponent(search));
+      handleClear();
+      router.push("/?q=" + encodeURIComponent(search));
     }
   };
 

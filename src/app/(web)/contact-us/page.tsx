@@ -6,7 +6,7 @@ const DeveloperPage = () => {
 
   return (
     <div className="space-y-4 mb-12 px-4 md:px-2 xl:px-0">
-      <HeaderImage src="/images/developer.png" />
+      <HeaderImage src="/images/contact-us.png" />
       <div className="text-gray-300 space-y-2">
         <div className="mt-8 mb-2 font-semibold text-[32px] text-[#4280bf]">
           <h1>Contact US - {SITE_TITLE}</h1>
