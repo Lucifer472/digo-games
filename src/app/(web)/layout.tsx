@@ -4,10 +4,17 @@ import { Suspense } from "react";
 import Footer from "@/components/footer/footer";
 import { Header } from "@/components/navigation/header";
 import { SearchBox } from "@/components/navigation/search-box";
+import Script from "next/script";
 
 const WebLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <main className="w-full relative">
+      <Script
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5412050029883171"
+        async
+        crossOrigin="anonymous"
+        strategy="afterInteractive"
+      />
       <Suspense>
         <SearchBox />
       </Suspense>
