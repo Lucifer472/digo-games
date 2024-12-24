@@ -1,18 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export const GameIcon = ({
-  link,
-  label,
-  src,
-}: {
-  link: string;
-  src: string;
-  label: string;
-}) => {
+export const GameIcon = ({ label, src }: { src: string; label: string }) => {
   return (
     <Link
-      href={link}
+      href={"/" + encodeURIComponent(label.toLowerCase())}
       className="w-full h-full cursor-pointer block col-span-1 group bg-[#020c17]"
     >
       <div className="relative w-full h-full aspect-square rounded-xl overflow-hidden">

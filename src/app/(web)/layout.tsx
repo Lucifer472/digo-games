@@ -20,7 +20,7 @@ const WebLayout = ({ children }: { children: React.ReactNode }) => {
       </Suspense>
       <div className="relative z-10 w-full">
         <Header />
-        <div className="w-full h-full mt-32 max-w-screen-xl mx-auto">
+        <div className="w-full h-full mt-20 md:mt-24 max-w-screen-xl mx-auto">
           {children}
         </div>
         <Footer />

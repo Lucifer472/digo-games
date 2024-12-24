@@ -14,14 +14,7 @@ const Homepage = ({ searchParams }: { searchParams: { q?: string } }) => {
             return null;
           }
 
-          return (
-            <GameIcon
-              src={game.src}
-              label={game.label}
-              link={game.link}
-              key={game.link}
-            />
-          );
+          return <GameIcon src={game.src} label={game.label} key={game.link} />;
         })}
       </section>
     </div>
