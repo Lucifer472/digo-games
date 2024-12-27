@@ -67,6 +67,16 @@ export const socialLinks = [
 
 export const Games = [
   {
+    src: "blast-cannon.png",
+    label: "Blast Cannon",
+    link: "/games/blast-cannon/index.html",
+    desc: `<p className="space-y-4 leading-8 text-justify px-4">
+  Take aim and fire in <strong>Blast-Cannon</strong>, an action-packed sandbox game where numbers fall from the sky, and it’s your job to blast them down to zero! Control a powerful cannon and reduce each number by one with every shot. <br /> <br />
+  When a number explodes, it splits into smaller numbers, adding to the challenge. Keep firing and strategize your moves to clear them all. The game continues endlessly, testing your focus and reflexes. But be careful—you only have 3 lives! <br /> <br />
+  With vibrant visuals, dynamic game play, and infinite fun, <strong>Blast-Cannon</strong> delivers a non-stop shooting experience. Play on PC or mobile platforms and see how long you can survive in this exciting numbers-blasting adventure!
+</p>`,
+  },
+  {
     src: "car-parking-3d.png",
     label: "Car Parking 3D",
     link: "/games/car-parking-jam-3d/index.html",

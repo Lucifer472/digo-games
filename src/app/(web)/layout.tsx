@@ -10,7 +10,7 @@ const WebLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <main className="w-full relative">
       <Script
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5412050029883171"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3221545862697404"
         async
         crossOrigin="anonymous"
         strategy="afterInteractive"
